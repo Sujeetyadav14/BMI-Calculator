@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* background-color: steelblue; */
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  height: fit-content;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(138, 136, 135);
+
+  border-radius: 30px;
+}
+form {
+  height: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+
+}
+input{
+  font-size: 20px;
+  width: 120px;
+}
+button {
+  background-color: blue;
+  color: white;
+  font-size: large;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+}
+
+p {
+  font-size: large;
+  font-weight: 700;
+}
